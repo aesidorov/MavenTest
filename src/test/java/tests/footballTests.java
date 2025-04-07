@@ -9,7 +9,7 @@ public class footballTests {
     public void teamCount(){
         int teamHome = 18;
         int teamGuest = 13;
-        Assertions.assertEquals(30, teamHome + teamGuest);
+        Assertions.assertEquals(31, teamHome + teamGuest);
     }
 
     @Test
