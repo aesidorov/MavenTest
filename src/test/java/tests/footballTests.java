@@ -1,6 +1,7 @@
 package tests;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class footballTests {
@@ -13,6 +14,7 @@ public class footballTests {
     }
 
     @Test
+    @Tag("dinamo")
     public void lombokTest(){
         Player player = Player.builder()
                 .name("Smolov")
